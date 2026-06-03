@@ -4,9 +4,9 @@
 
 /* ---------- Design Tokens ---------- */
 :root {
-  --green-900: #0e3a23;
+  --green-900: #02341A;
   --green-800: #14492c;
-  --green-700: #1a5a37;
+  --green-700: #015E2D;
   --green-600: #207043;
   --cream:     #f6e9c7;
   --cream-2:   #fbf2d7;
@@ -156,7 +156,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('../images/bg_3-1.png') center right / cover no-repeat;
+  background: url('../images/bg_1_saba.jpg') center right / cover no-repeat;
   z-index: 0;
 }
 .hero-bg::after {
@@ -226,7 +226,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
    VALUES
 ========================================================= */
 .values {
-  background: var(--green-800);
+  background: #015E2D;
   color: var(--white);
   padding: 60px 0;
 }
@@ -264,7 +264,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 }
 .about-bg {
   position: absolute; inset: 0;
-  background: url('../images/bg_1_saba.jpg') center / cover no-repeat;
+  background: url('../images/pontos-turisticos-italia.webp') center / cover no-repeat;
   z-index: 0;
 }
 .about-bg::after {
@@ -283,7 +283,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 }
 .about-card h2 {
   font-size: clamp(1.8rem, 3.2vw, 2.6rem);
-  color: var(--gold);
+  color: #015E2D;
   font-weight: 600;
   margin-bottom: 24px;
 }
@@ -351,7 +351,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 }
 .services-bg {
   position: absolute; inset: 0;
-  background: url('../images/bg_1_saba.jpg') center / cover no-repeat;
+  background: url('../images/pontos-turisticos-italia.webp') center / cover no-repeat;
   z-index: 0;
 }
 .services-bg::after {
@@ -436,19 +436,9 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
   color: var(--cream);
   overflow: hidden;
 }
-.flags-bg { position: absolute; inset: 0; display: flex; }
-.flag-br-half {
-  flex: 1;
-  background:
-    radial-gradient(circle at 50% 50%, #002776 12%, transparent 13%),
-    linear-gradient(135deg, transparent 16%, #ffdf00 16% 84%, transparent 84%),
-    #009c3b;
-  filter: brightness(0.85);
-}
-.flag-it-half {
-  flex: 1;
-  background: linear-gradient(to right, #009246 0 33.33%, #ffffff 33.33% 66.66%, #ce2b37 66.66%);
-  filter: brightness(0.85);
+.flags-bg {
+  position: absolute; inset: 0;
+  background: url('../images/bg_3-1.png') center center / cover no-repeat;
 }
 .banner-overlay {
   position: absolute; inset: 0;
