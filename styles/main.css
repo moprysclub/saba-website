@@ -714,7 +714,13 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
   .testimonials-carousel { padding: 0 30px; }
   .testimonial { display: none; }
   .testimonial.is-active { display: flex; }
-  .footer-inner { grid-template-columns: 1fr; text-align: center; justify-items: center; gap: 18px; }
+  .footer-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+    gap: 18px;
+    padding-top: 56px;
+  }
 }
 
 @media (max-width: 580px) {
