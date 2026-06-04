@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
     rel="stylesheet" />
 
   <link rel="stylesheet" href="styles/main.css" />
@@ -27,9 +27,39 @@
         <img src="images/logo_branco_2x.png" alt="Saba — Traduzione e Soluzione" />
       </a>
 
-      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="header-mobile-tools">
+        <div class="lang-switcher lang-switcher-mobile" role="group" aria-label="Selecionar idioma">
+          <button type="button" class="lang-btn active" data-lang="pt" aria-label="PortuguÃªs">
+            <svg class="flag-svg" viewBox="0 0 720 504" aria-hidden="true">
+              <rect width="720" height="504" fill="#009b3a" />
+              <path d="M360 76 650 252 360 428 70 252z" fill="#ffdf00" />
+              <circle cx="360" cy="252" r="126" fill="#002776" />
+            </svg>
+          </button>
+
+          <button type="button" class="lang-btn" data-lang="it" aria-label="Italiano">
+            <svg class="flag-svg" viewBox="0 0 3 2" aria-hidden="true">
+              <rect width="1" height="2" x="0" fill="#009246" />
+              <rect width="1" height="2" x="1" fill="#ffffff" />
+              <rect width="1" height="2" x="2" fill="#ce2b37" />
+            </svg>
+          </button>
+
+          <button type="button" class="lang-btn" data-lang="en" aria-label="English">
+            <svg class="flag-svg" viewBox="0 0 7410 3900" aria-hidden="true">
+              <rect width="7410" height="3900" fill="#b22234" />
+              <path
+                d="M0 300h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0"
+                fill="#ffffff" />
+              <rect width="2964" height="2100" fill="#3c3b6e" />
+            </svg>
+          </button>
+        </div>
+
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
 
       <nav class="main-nav" aria-label="Navegação principal">
         <ul>
@@ -91,7 +121,8 @@
   <!-- ============= HERO ============= -->
   <section class="hero" id="home">
     <div class="hero-bg"></div>
-    <div class="container hero-content">
+    <div class="hero-content">
+      <div class="hero-copy">
       <h1 data-i18n="hero.title">A Itália começa aqui,<br />com tudo em ordem.</h1>
       <p class="hero-lead" data-i18n="hero.lead">
         Com mais de 10 anos de experiência, a Saba ajuda brasileiros a conquistarem seus sonhos na Itália com segurança,
@@ -114,6 +145,7 @@
         </svg>
         <span data-i18n="hero.cta">Fale via WhatsApp agora mesmo</span>
       </a>
+      </div>
     </div>
   </section>
 
@@ -151,8 +183,9 @@
   </section>
 
   <!-- ============= QUEM É A SABA ============= -->
-  <section class="about" id="quem-somos">
-    <div class="about-bg"></div>
+  <div class="story-sections">
+    <div class="story-sections-bg"></div>
+    <section class="about" id="quem-somos">
     <div class="container about-inner">
       <div class="about-card">
         <h2 data-i18n="about.title">Quem é a Saba?</h2>
@@ -196,7 +229,6 @@
 
   <!-- ============= SERVIÇOS ============= -->
   <section class="services" id="servicos">
-    <div class="services-bg"></div>
     <div class="container services-inner">
       <header class="services-head">
         <h2 data-i18n="services.title">O que a Saba pode fazer por você</h2>
@@ -324,20 +356,6 @@
             surpresas.</p>
         </article>
       </div>
-
-      <div class="service-extra">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.7">
-            <path d="M12 2l3 6 6 .9-4.5 4.4 1 6.2L12 16.7 6.5 19.5l1-6.2L3 8.9 9 8z" />
-          </svg>
-        </div>
-        <div>
-          <h3 data-i18n="services.extra.t">Designer Gráfico Digital</h3>
-          <p data-i18n="services.extra.d">Criação de materiais visuais digitais como logos, cartões de visita, panfletos
-            e sites. Serviço limitado ao ambiente digital — não inclui impressão física.</p>
-        </div>
-      </div>
-
       <a href="https://wa.me/393932678931" class="btn btn-whatsapp" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
           <path
@@ -347,6 +365,7 @@
       </a>
     </div>
   </section>
+  </div>
 
   <!-- ============= BANNER TRADUTORA ============= -->
   <section class="banner-translator">
