@@ -635,7 +635,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
   grid-template-columns: auto 1fr 1fr auto;
   align-items: center;
   gap: 36px;
-  padding: 26px 24px;
+  padding: 42px 24px 26px;
 }
 .footer-logo img { height: 44px; width: auto; filter: invert(1); }
 .footer-block {
