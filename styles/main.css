@@ -90,7 +90,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 }
 .main-nav a {
   font-family: var(--font-serif);
-  color: var(--white); font-size: 13px; font-weight: 500;
+  color: var(--white); font-size: 16px; font-weight: 500;
   letter-spacing: .12em; text-transform: uppercase;
   position: relative; padding: 6px 0;
   transition: color .2s ease;
@@ -701,6 +701,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
   }
   .main-nav[data-open="true"] { transform: translateX(0); }
   .main-nav ul { flex-direction: column; gap: 18px; width: 100%; }
+  .main-nav a { font-size: 17px; }
   .header-extras { flex-direction: row; gap: 16px; align-self: stretch; justify-content: space-between; padding-top: 16px; border-top: 1px solid rgba(255,255,255,.1); width: 100%; }
   .hero-content { padding-left: 28px; padding-right: 24px; }
   .hero-copy { width: min(640px, 100%); }
