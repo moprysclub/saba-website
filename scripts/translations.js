@@ -9,7 +9,7 @@ const translations = {
       description: 'Saba — Traduzione e Soluzione. Cidadania italiana, traduções juramentadas e suporte jurídico para brasileiros na Itália.'
     },
     nav: {
-      about: 'QUEM SOMOS ?',
+      about: 'QUEM SOMOS',
       services: 'SERVIÇOS',
       clients: 'CLIENTES',
       contact: 'CONTATOS'
@@ -91,7 +91,7 @@ const translations = {
       title: 'Saba — Translation and Solution',
       description: 'Saba — Translation and Solution. Italian citizenship, sworn translations and legal support for Brazilians in Italy.'
     },
-    nav: { about: 'ABOUT US ?', services: 'SERVICES', clients: 'CLIENTS', contact: 'CONTACT' },
+    nav: { about: 'ABOUT US', services: 'SERVICES', clients: 'CLIENTS', contact: 'CONTACT' },
     hero: {
       title: 'Italy starts here,<br/>with everything in order.',
       lead: 'With over 10 years of experience, Saba helps Brazilians achieve their dreams in Italy with safety, agility, and care. We work with Italian citizenship, translations, official documents, legal support, and much more — all with warmth and professionalism.',
@@ -169,7 +169,7 @@ const translations = {
       title: 'Saba — Traduzione e Soluzione',
       description: 'Saba — Traduzione e Soluzione. Cittadinanza italiana, traduzioni giurate e supporto legale per i brasiliani in Italia.'
     },
-    nav: { about: 'CHI SIAMO ?', services: 'SERVIZI', clients: 'CLIENTI', contact: 'CONTATTI' },
+    nav: { about: 'CHI SIAMO', services: 'SERVIZI', clients: 'CLIENTI', contact: 'CONTATTI' },
     hero: {
       title: 'L\'Italia inizia qui,<br/>con tutto in ordine.',
       lead: 'Con oltre 10 anni di esperienza, Saba aiuta i brasiliani a realizzare i loro sogni in Italia con sicurezza, rapidità e cura. Ci occupiamo di cittadinanza italiana, traduzioni, documenti ufficiali, supporto legale e molto altro — tutto con calore e professionalità.',
