@@ -28,11 +28,16 @@
   --radius-lg: 20px;
   --shadow-soft: 0 8px 30px rgba(0,0,0,.15);
   --shadow-card: 0 6px 20px rgba(0,0,0,.18);
+  --anchor-offset: 110px;
 }
 
 /* ---------- Reset / Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--anchor-offset);
+  -webkit-text-size-adjust: 100%;
+}
 body {
   margin: 0;
   font-family: var(--font-sans);
@@ -49,6 +54,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15; margin: 0 0 .5em; }
 
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+[id] { scroll-margin-top: var(--anchor-offset); }
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px,1px,1px,1px); padding: 0; border: 0;
@@ -663,6 +669,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
    RESPONSIVE
 ========================================================= */
 @media (max-width: 980px) {
+  :root { --anchor-offset: 98px; }
   .header-inner {
     padding: 20px 18px;
     gap: 14px;
@@ -725,6 +732,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 }
 
 @media (max-width: 580px) {
+  :root { --anchor-offset: 92px; }
   .container { padding: 0 18px; }
   .hero { min-height: 520px; }
   .hero-bg {
