@@ -306,7 +306,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 
 .about {
   position: relative;
-  padding: 28px 0 90px;
+  padding: 8px 0 90px;
   overflow: hidden;
   z-index: 1;
 }
@@ -315,7 +315,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 .about-card {
   background: var(--cream);
   border-radius: var(--radius-md);
-  padding: 40px 380px 42px 54px;
+  padding: 34px 410px 42px 54px;
   position: relative;
   box-shadow: var(--shadow-soft);
   max-width: 1080px; margin: 0 auto;
@@ -345,9 +345,9 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.15
 
 .about-passports {
   position: absolute;
-  right: -18px; top: 8px;
+  right: -34px; top: -10px;
   transform: rotate(6deg);
-  width: 430px; height: auto;
+  width: 480px; height: auto;
   filter: drop-shadow(0 12px 30px rgba(0,0,0,.4));
   pointer-events: none;
 }
